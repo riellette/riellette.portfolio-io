@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>riellette</title>
+    <link rel="icon" type="image/x-icon" href="images/icon.png">
+    <link rel = "stylesheet" href ="Style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+    <header class="header">
+        <a href="index.html" class="logo"> Ri.</a>
+
+        <nav class="navbar">
+            <a href="index.html" style="--i:1;" class="active" >Home</a>
+            <a href="#abtMe" style="--i:2;">About</a>
+        </nav>
+    </header>
+
+    <section class="home">
+        <div class="home-content">
+            <h2>Hi, I'm</h2>
+            <h1>Riellette </h1>
+            <p>I am committed and have the ability to learn quickly and adapt to business requirements and priorities as needed. My aim is to leverage these skills to contribute meaningfully and pursue my passion.</p>
+            
+            <div class="social-media">
+                <a href="mailto:riellette.ezhie@gmail.com" style="--i:1;" ><i class='bx bxl-gmail' ></i></a>
+                <a href="https://www.facebook.com/riellette.ezhie/" style="--i:2;" ><i class='bx bxl-facebook-square'></i></a>                
+                <a href="https://www.instagram.com/riemagalso/" style="--i:3;" ><i class='bx bxl-instagram-alt' ></i></a>
+            </div>
+            
+            <!-- <a href="#" class="btn" style="--i:4;">Download CV</i></a> -->
+        </div>
+
+        <div class="home-img" data-aos="fade-left" >
+            <img src="images/homeBg.png">
+        </div>
+    </section>
+
+    <section class="abtMe" data-aos="fade-in">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/abtMe.jpeg">
+                </div>
+
+                <div class="about-col-2">
+                    <h1 id="abtMe">About Me</h1>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="openTab('educ')">Education</p>
+                        <p class="tab-links" onclick="openTab('skills')">Skills</p>
+                        <p class="tab-links" onclick="openTab('exp')">Experiences</p>
+                        <p class="tab-links" onclick="openTab('achievements')">Achievements</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="educ">
+                        <ul>
+                            <li><span>DON BOSCO TECHNICAL COLLEGE</span><br>Bachelor of Science in Computer Science<br>736 Gen. Kalentong, Mandaluyong City</li>
+                            <li><span>DON BOSCO TECHNICAL COLLEGE</span><br>Junior High School<br>736 Gen. Kalentong, Mandaluyong City</li>
+                            <li><span>UST - ANGELICUM COLLEGE</span><br>Junior High School<br>12 M.J. Cuenco, Sta. Mesa Heights, Quezon City</li>
+                            <li><span>ST. PAUL COLLEGE OF MAKATI</span><br>Elementary<br>D.M. Rivera, Poblacion, Makati City</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="skills">
+                        <ul>
+                            <li><span>PROGRAMMING</span><br>Arduino, Android, C, C++, CSS, HTML, Java, JavaScript, MySQL, 
+                            PHP,  and Python</li>
+                            <li><span>GOOGLE APPLICATIONS</span><br>Docs, Slides, and Sheets</li>
+                            <li><span>MICROSOFT OFFICE</span><br>Word, PowerPoint, Excel, and Publisher</li>
+                            <li><span>ADOBE CREATIVE SUITE</span><br>Adobe Photoshop and Premiere Pro</li>
+                            <li><span>ANALYTICAL SKILLS</span><br>Can examine information, and then understand what it means, and what it 
+                                represents.</li>
+                            <li><span>INTERPERSONAL SKILLS</span><br>Can work effectively with different kinds of people.</li>
+                            
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="exp">
+                        <ul>
+                            <li><span>PHILNITS</span><br>Intern<br>FMSG Building, Rm.306, 9 Balete Dr, New Manila, Quezon City</li>
+                            <li><span>FOREVER FLAWLESS FACE AND BODY, INC.</span><br>Intern<br>2F Hanston Square, 17 San Miguel Ave., Pasig City </li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="achievements">
+                        <ul>
+                            <li><span>DEAN'S LISTER FOR TWO CONSECUTIVE ACADEMIC YEARS</span><br>Don Bosco Technical College<br>2020-2022</li>
+                            <li><span style="text-transform: uppercase;">Academic Recognition in Inquiries, Investigations, and Immersion</span><br>Don Bosco Technical College<br>2020</li>
+                            <li><span style="text-transform: uppercase;">Academic Recognition in 21st Century Literature</span><br>Don Bosco Technical College<br>2020</li>
+                            <li><span style="text-transform: uppercase;">Best Actress in the 5th Don Bosco Film Festival</span><br>Don Bosco Technical College<br>December 12, 2019</li>
+                            <li><span style="text-transform: uppercase;">Scholastic Distinction for two consecutive semesters</span><br>Don Bosco Technical College<br>2019</li>
+                            <li><span style="text-transform: uppercase;">Academic Recognition in Robotics</span><br>Don Bosco Technical College<br>2018-2020</li>
+                            <li><span style="text-transform: uppercase;">Academic Recognition in Physical Education</span><br>Don Bosco Technical College<br>2018-2019</li>
+                            <li><span style="text-transform: uppercase;">Academic Recognition in Oral Communication</span><br>Don Bosco Technical College<br>2018-2019</li>
+                            <li><span style="text-transform: uppercase;">Academic Recognition in General Mathematic</span><br>Don Bosco Technical College<br>2018</li>
+                            <li><span style="text-transform: uppercase;">First Runner-up in Mathematics Quiz Bee</span><br>UST - Angelicum College<br>March 2016</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      
+      var tabLinks = document.getElementsByClassName("tab-links");
+      var tabContents = document.getElementsByClassName("tab-contents");
+
+      function openTab(tabname) {
+        for(tabLinks of tabLinks) {
+            tabLinks.classList.remove("active-link");
+        }
+
+        for(tabContents of tabContents) {
+            tabContents.classList.remove("active-tab");
+        }
+
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab")
+      }
+
+      
+    </script>
+
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
